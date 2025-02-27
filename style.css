@@ -1,0 +1,83 @@
+/*Estilização BODY do site*/
+body{
+    margin: 0;
+    border: 0;
+    font-family: 'Grostick';
+}
+.logo{
+    width: 15%;
+    margin: 10px 0 0 5px;
+}
+/*Estilização do header do site*/
+header{
+    background-color: #e93c11;
+}
+/*ESTILIZAÇÃO DIV DO SITE*/
+.divHeader{
+    position: relative;
+    margin: auto;
+    width: 70%;
+    padding-bottom: 5px; /* espaçamento baixo*/
+
+}
+/*ESTILIZAÇÃO MENU DO SITE*/
+nav {
+    position: absolute;
+    top: 150px;
+    right: 5px;
+}
+nav li{
+    display: inline;
+    color: white;
+    font-size: 25px;
+    margin-right: 200px;
+}
+
+.banner{
+    width: 100%;
+    height: 420px;
+    object-fit: cover; /*CObject-fit  serve para que a imagem fique adequada sem estar achatada*/
+}
+
+/*Estilização da sessão SOBRE NÓS*/
+.sobre_nos {
+    margin: 0;
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;
+}
+/*Imagem sobre nós*/
+.img_sobrenos {
+    width: 40%;
+    float: left;
+    margin-right: 40px;
+}
+.sobre_nos p{
+    margin-left: 50%;
+    
+}
+.titulo_sobrenos {
+    clear: left;
+    text-align: center;
+}
+.texto_diferente {
+    font-weight: bold;
+    text-decoration: underline;
+}
+/*Estilização da sessão Nosso Estabelecimento*/
+.fundo {
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(207, 75, 75));
+}
+.mapaGeral {
+    padding-left: 10%;
+}
+
+.mapaGeral p{
+    margin-left: 37%;
+}
+.mapaGeral h2{
+    margin-right: 10%;
+}
+.mapa {
+    margin-left: 22%;
+}
