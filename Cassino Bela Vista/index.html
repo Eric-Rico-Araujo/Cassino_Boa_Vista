@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <title>Cassino Bela Vista</title>
+        <script>
+            alert('Bem vindo ao nosso site!');
+
+    dia = new Array("Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sabado");
+    mes = new Array("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro")
+    data = new Date
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="divHeader">
+                <!--Logotipo-->
+                <img src="img/logo.png" title="imp" class="logo">
+                <!--Menu-->
+                <nav> <!--barra de navegação-->
+                    <ul>
+                        <!--Itens Menu-->
+                        <li>Home</li>
+                        <li><a href="produto.html"></a>Produtos</li>
+                        <li>Contato</li>
+                    </ul>
+            </div>
+        </header> 
+        <img src= "img/banner.png" alt="Imagem banner" class="banner"> 
+        <main>
+            <!--começando o corpo realmente-->
+            <section class="sobre_nos">
+                <h2 class="titulo_sobrenos">Sobre nós</h2>
+                <img src="img/ganhando.png" class="img_sobrenos"/>
+                <p>
+                    <script>
+                        //data.getDay - da o dia da semana
+                        document.write(dia[data.getDay()] + ", " + data.getDate() + " de " + mes[data.getMonth()] + " de " + data.getFullYear());
+                    </script>
+                </p>
+                <p>Bem-vindo ao mundo luxuoso e emocionante dos cassinos! 🌟✨ Um verdadeiro paraíso para quem busca diversão, 
+                glamour e a chance de mudar de vida em um piscar de olhos. Com luzes vibrantes, máquinas brilhantes e mesas repletas de energia, 
+                um cassino oferece uma experiência inigualável, onde a emoção nunca tem fim!</p>
+
+                <p>Seja girando os rolos das máquinas de caça-níquel, testando sua sorte na roleta ou mostrando suas habilidades no pôquer, 
+                    cada momento é repleto de adrenalina e possibilidades. Além disso, os cassinos oferecem um ambiente sofisticado, 
+                    com coquetéis exclusivos, restaurantes cinco estrelas e um atendimento impecável para garantir que sua experiência seja inesquecível.</p>
+                    
+                <p>Aqui, todo mundo tem a chance de viver momentos mágicos, celebrar grandes vitórias e aproveitar a pura emoção do entretenimento de alto nível. 
+                Em um cassino, cada visita é uma experiência digna de um vencedor! 🎰💰🔥</p>
+            </section>
+        </main>
+    <section class="mapaGeral">
+                <h2 class="titulo_sobrenos">Nosso Estabalecimento </h2>
+                <p class="mapaGeral p">Veja no mapa abaixo como nos encontrar!</p>
+                <div>
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51558.18447475812!2d-115.21408074527044!3d36.13280081831585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c4158127463b%3A0x27b3eae44da9ca96!2sRosina%20Cocktail%20Lounge!5e0!3m2!1spt-BR!2sbr!4v1742420994518!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+
+            <section class="nossos_produtos">
+                <h2 class="titulo_nossosP">Nossos Produtos</h2>
+                <div class="nossos_produtos_content">
+                    <ul class="lista">
+                        <li>Caça niquel</li>
+                        <li>Bandeija da sorte</li>
+                        <li>Jogos de carta (como poker)</li>
+                        <li>Roleta</li>
+                    </ul>
+                    <div class="img_nossosP">
+                        <img  src="img/pessoas.png" alt="Cassino Bela Vista">
+                    </div>
+                </div>
+                <!--Vídeo-->
+                <div class="video">
+                    <h2 class="titulo_nossosP">Vídeo</h2>
+                    <p>A seguir um vídeo com um tour em nosso cassino 5✨!</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lS0WpklwHIo?si=y3-ZBnY1cTVIBT8r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </section>
+        </main>
+        <!--Rodapé do site-->
+        <footer>
+            <img src="img/logo.png" alt="Cassino Bela Vista" class="logo_footer"/>
+            <p>Para mais informações lige ou mande uma mensagem em: <a href="https://wa.me/5511992368297"><i class="fa fa-whatsapp"></i></a> (11) 91234-5678 | <a href="https//instagram.com/silfazendoarte"><i class="fa fa-instagram"></i></a> @CassinoBelaVista</p>
+        </footer>
+    </body>
+</html>

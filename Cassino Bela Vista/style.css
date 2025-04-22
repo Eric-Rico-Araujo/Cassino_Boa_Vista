@@ -1,0 +1,237 @@
+/*Estilização BODY do site*/
+body{
+    margin: 0;
+    border: 0;
+    font-family: 'Grostick';
+    background-color: #000000;
+}
+.logo{
+    width: 15%;
+    margin: 10px 0 0 5px;
+}
+/*Estilização do header do site*/
+header{
+    background-color: #db3b13;
+}
+/*ESTILIZAÇÃO DIV DO SITE*/
+.divHeader{
+    position: relative;
+    margin: auto;
+    width: 70%;
+    padding-bottom: 5px; /* espaçamento baixo*/
+
+}
+/*ESTILIZAÇÃO MENU DO SITE*/
+nav {
+    position: absolute;
+    top: 150px;
+    right: 5px;
+}
+nav li{
+    display: inline;
+    color: white;
+    font-size: 25px;
+    margin-right: 200px;
+}
+
+.banner{
+    width: 100%;
+    height: 420px;
+    object-fit: cover; /*CObject-fit  serve para que a imagem fique adequada sem estar achatada*/
+}
+
+/*Estilização da sessão SOBRE NÓS*/
+.sobre_nos {
+    margin: 0;
+    background-color: #000000;
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;
+    font-family: 'Grostick'
+
+}
+.sobre_nos p{
+    color: rgb(233, 183, 18);
+}
+
+
+/*Imagem sobre nós*/
+.img_sobrenos {
+    width: 16%;
+    float: left;
+    margin-right: 20px;
+    font-family: 'Grostick'
+}
+
+.titulo_sobrenos {
+    clear: left;
+    text-align: center;
+    font-family: 'Grostick';
+    color: white;
+    
+}
+.mapaGeral{
+    margin: 10;
+}
+
+.mapaGeral p{
+    text-align: center;
+    color: rgb(233, 183, 18);
+}
+
+.mapa{
+  margin-left: 35%;
+  margin-bottom: 2%;
+}
+
+/* Estilização da seção NOSSOS PRODUTOS */
+.nossos_produtos {
+    display: flex;
+    flex-direction: column; /* Mantém o título no topo */
+    align-items: center; /* Centraliza o título */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.titulo_nossosP {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Correção principal */
+.nossos_produtos_content {
+    display: flex; /* Organiza em linha */
+    justify-content: space-between; /* Separa os elementos */
+    align-items: flex-start; /* Mantém alinhado no topo */
+    width: 70%;
+    /*max-width: 1000px; /* Define um limite de largura */
+    gap: 2px; /* Espaço entre lista e imagem */
+}
+
+/* Ajuste da lista */
+.lista {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    width: 30%; /* Define metade da largura */
+    color: rgb(233, 183, 18);
+    list-style-position: inside;
+    margin-right: 0;
+    display: inline-block;
+    vertical-align: "top";
+    padding-left: 15%;
+    list-style: none;
+}
+
+.lista li{
+    line-height: 2;
+}
+
+.lista li:before{
+    content: "★ ";
+}
+
+/* Ajuste da imagem */
+.img_nossosP {
+    display: flex;
+    /*justify-content: flex-end; /* Mantém alinhado à direita */
+    align-items: flex-start;
+    width: 40%; /* Ocupa metade da largura */
+    margin-bottom: 10%;
+}
+
+.img_nossosP img{
+
+    width: 100%; /* Faz com que a imagem ocupe o espaço disponível */
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(163, 162, 162, 0.315);
+}
+
+.img_nossosP img:hover{
+    opacity: 0.5;
+}
+
+.video{
+    margin-bottom: 10%;
+}
+
+/*Estilização do vídeo*/
+.video p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+/*Estilização do Footer*/
+footer{
+    background: url("img/rodape.png");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: darken;
+    padding: 30px 10px 10px 0;
+}
+footer p{
+    color:bisque;
+    font-weight: bold;
+    text-align: right;
+    font-size: 20px;
+    text-align: right;
+    height: 30px;
+    
+}
+footer i{
+    color: white;
+}
+.logo_footer{
+    width: 10%;
+    padding-left: 85%;
+}
+
+/*Container dos cards*/
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+/*Estilização do card*/
+.card {
+    background: #fff;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/*Imagens*/
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/*Título*/
+.card h2 {
+    margin: 10px 0;
+}
+/*Preço*/
+.preco {
+    font-size: 18px;
+    font-weight: bold;
+    color: #27ae60;
+    margin: 10px 0;
+}
